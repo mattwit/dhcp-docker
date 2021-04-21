@@ -1,5 +1,5 @@
 # dhcp-docker
-Lightweight vanilla dhcpd Docker container built on Alpine. Dhcpd runs as an app in the container.
+Lightweight vanilla dhcpd Docker container built on Alpine. Dhcpd runs as app in the container.
 
 Edit the dhcpd.conf to match your environment. 
 
