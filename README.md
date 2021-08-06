@@ -8,12 +8,25 @@ Notes:
     - Edit the dhcpd.conf to match your environment
     
     - Edit run.sh to match your local copy of dhcpd.conf
+    
+    - Choose run.sh to run as an app
+    
+    - Choose install.sh to run as a service
+    
 
 Usage:
 
-    run.sh - build and run container (must be run initially)
+    install.sh - build and run container as a service (will start at boot up as a cron job)
+    
+    run.sh - build and run container as an app
+    
     stop.sh - stop the container
+    
     start.sh - restart the container
+    
     leases.sh - view active leases in running container
+    
     kill.sh to completely remove the container 
-    WARNING: kill.sh requires running install.sh to start container again
+    WARNING: kill.sh requires running run.sh or install.sh to start container again
+    
+    
