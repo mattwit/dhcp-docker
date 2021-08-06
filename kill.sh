@@ -3,6 +3,7 @@
 
 # Kill the docker container 
 docker kill dhcp
+sudo docker rm dhcp
 
 # Delete the docker images
 docker rmi opengear:dhcpd
