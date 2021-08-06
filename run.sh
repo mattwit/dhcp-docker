@@ -2,7 +2,7 @@
 # Script builds the docker image, runs the containers, and starts the dhcpd service on the container
 
 # 
-
+# Create /var/lib/dhcp directory and lease file on the host
 makeFiles(){
 
     sudo mkdir /var/lib/dhcp
@@ -10,7 +10,7 @@ makeFiles(){
 
 }
 
-# build dhcpd docker image from Dockerfile
+# build dhcpd docker image from Dockerfile 
 dockerBuild(){
 
     sudo docker build -t opengear:dhcpd .
