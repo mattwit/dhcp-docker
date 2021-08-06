@@ -21,5 +21,3 @@ sudo docker exec dhcp ps -a
 echo
 sudo docker ps -a
 echo
-echo bash leases.sh to check dhcp client leases
-echo
