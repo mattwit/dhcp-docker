@@ -24,8 +24,6 @@ Usage:
     
     start.sh - restart the container
     
-    leases.sh - view active leases in running container
-    
     kill.sh to completely remove the container 
     WARNING: kill.sh requires running run.sh or install.sh to start container again
     
